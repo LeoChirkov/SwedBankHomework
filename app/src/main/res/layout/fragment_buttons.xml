@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="lc.swedbank.homework.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/swedbank_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose country to see ATMs and branches"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:text="Estonia"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/button_est" />
+
+    <Button
+        android:text="Latvia"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/button_lv" />
+
+    <Button
+        android:text="Lithuania"
+        android:textSize="18sp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/button_lt" />
+
+
+</LinearLayout>
